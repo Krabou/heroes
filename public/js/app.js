@@ -26,6 +26,24 @@ list.forEach((hero) => {
                 <button class="btn details">details</button>
             </div>
         `;
+
+
+    // remove
+    async function deleteOneUser(id) {
+      console.log(id);
+      try {
+        await axios.delete(`${URL}/${id}`);
+        removeUserFromDocument(id);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+    
+    function removeUserFromDocument(idHero) {
+      // https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_d_attribut
+      const cardToRemove = document.querySelector(`[data-user-id="${idHero}"]`);
+      cardToRemove.remove();
+    }
     // get the btn as an element object
     const btnDetails = li.querySelector(".btn.details");
     const btnRemove = li.querySelector(".btn.remove");
