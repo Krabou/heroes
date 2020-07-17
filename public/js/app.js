@@ -3,6 +3,7 @@ const formPostHero = document.getElementById("formPostHero");
 const searchbar = document.getElementById("searchbar");
 var heroes = [];
 const formOrder = document.getElementById("order")
+
 //Header fixed on scroll
 
 window.addEventListener("scroll", () => {
@@ -65,7 +66,8 @@ function displayAllHeroes(list) {
 
 async function postNewHeroe() {
   const name = document.getElementById("name").value;
-  // const intelligence = document.getElementById("intelligence").value;
+  const avatar = document.getElementById("avatar").value;
+  const intelligence = document.getElementById("intelligence").value;
 
 
   try {
@@ -92,6 +94,22 @@ function getOneHeroe(id) {
 }
 
 
+//Function detail
+function afficherDetail(evt,heroes){
+  const id = evt.target.getAttribute("id") 
+  const modal = document.createElement("div")
+  modal.classList.add("modal") 
+  const body = document.querySelector("body")
+  body.appendChild(modal)
+  const heroe = heroes.find(heroe => heroe.id == id) 
+  console.log(heroe) 
+  modal.innerHTML = `
+  ${heroe.name} 
+  ${heroe.id}
+  ${heroe.biography.publisher}
+  `
+  
+  }
 
 // Function remove
 
@@ -133,7 +151,7 @@ function selectedorder() {
       .get(URL + "?_sort=id&_order=desc")
       .then((apiRes) => {
         heroes = apiRes.data
-        displayAllHeroes(heroes)
+        displayAllHeroesWithoutPicture(heroes)
       })
       .catch((apiErr) => console.error(apiErr))
     console.log("ohmygod")
@@ -148,6 +166,38 @@ function selectedorder() {
     console.log("good")
   }
 
+}
+
+function displayAllHeroesWithoutPicture(list) {
+  const ul = document.getElementById("listHeroes");
+  ul.innerHTML = "";
+  list.forEach((hero) => {
+    const li = document.createElement("li");
+    li.classList.add("hero");
+    li.setAttribute("data-hero-id", hero.id);
+    // setup li's markup
+    li.innerHTML = `
+            <h2>${hero.name}</h2>
+            <div class="buttons">
+                <button class="btn remove">remove</button>
+                <button class="btn details">details</button>
+            </div>
+        `;
+    // get the btn as an element object
+    const btnDetails = li.querySelector(".btn.details");
+    const btnRemove = li.querySelector(".btn.remove");
+
+    // setup event listeners on the btn
+    btnDetails.onclick = () => {
+      getOneHero(hero.id);
+    };
+
+    btnRemove.onclick = () => {
+      deleteOneHero(hero.id);
+    };
+
+    ul.appendChild(li);
+  });
 }
 formOrder.onchange = selectedorder
 

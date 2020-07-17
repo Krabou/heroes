@@ -58,12 +58,26 @@ h1 {
 }
 
 nav {
-    padding: 35px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     background: black;
     width: 100%;
     color: blanchedalmond;
 }
-
+nav>form{
+    margin: 15px;
+}
+.orderForm{
+    align-self: flex-end;
+}
+#order{
+    color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 
 body {
@@ -85,6 +99,15 @@ body {
     display: block;
     width: 320px;
     margin: 15px;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .carte {

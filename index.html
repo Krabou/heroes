@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="/public/js/app.js"></script>
     <link rel="stylesheet" href="/public/css/index.css">
@@ -17,28 +18,32 @@
     <figure class="slider">
         <img src="/public/img/rBVaI1kgPfOADlESAAgmHBq0HHE395-dhgate.jpg" alt="slide heroes">
     </figure>
-    <nav id="nav">
-        <form>
-
+   
+        
+ <nav id="nav">
+     <form class="orderForm" >
             <select id="order">
                 <option value="">--Please choose an option--</option>
                 <option value="asc">ascending</option>
                 <option value="desc">descending</option>
             </select>
         </form>
-
         <form id="formPostHero">
-            <button>Post new hero</button>
+            <h2>Post new hero</h2>
             <div>
                 <input id="name" class="input" name="name" type="text" class="input" placeholder="name">
-                <input id="intelligence" class="input" name="powerstats.intelligence" type="text" class="input"
-                    placeholder="intelligence">
+                <input id="intelligence" class="input" name="powerstats.intelligence" type="text" class="input" placeholder="intelligence">
+                <input type="file"
+                id="avatar" name="avatar"
+                accept="image/png, image/jpeg">
+                  
                 <button class="btn">ok</button></div>
         </form>
     </nav>
 
 
     <main>
+        <div class="AllHeroes"></div>
         <ul id="listHeroes"></ul>
     </main>
     <footer>

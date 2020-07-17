@@ -1,54 +1,6 @@
 {
   "heroes": [
     {
-      "id": 3,
-      "name": "Abin Sur",
-      "powerstats": {
-        "intelligence": "50",
-        "strength": "90",
-        "speed": "53",
-        "durability": "64",
-        "power": "99",
-        "combat": "65"
-      },
-      "biography": {
-        "full-name": "",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Lagzia"
-        ],
-        "place-of-birth": "Ungara",
-        "first-appearance": "Showcase #22 (October, 1959)",
-        "publisher": "DC Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Ungaran",
-        "height": [
-          "6'1",
-          "185 cm"
-        ],
-        "weight": [
-          "200 lb",
-          "90 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "No Hair"
-      },
-      "work": {
-        "occupation": "Green Lantern, former history professor",
-        "base": "Oa"
-      },
-      "connections": {
-        "group-affiliation": "Green Lantern Corps, Black Lantern Corps",
-        "relatives": "Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg"
-      }
-    },
-    {
       "id": 4,
       "name": "Abomination",
       "powerstats": {
@@ -834,54 +786,6 @@
       },
       "image": {
         "url": "https://www.superherodb.com/pictures2/portraits/10/100/1390.jpg"
-      }
-    },
-    {
-      "id": 21,
-      "name": "Ammo",
-      "powerstats": {
-        "intelligence": "null",
-        "strength": "null",
-        "speed": "null",
-        "durability": "null",
-        "power": "null",
-        "combat": "null"
-      },
-      "biography": {
-        "full-name": "",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "-"
-        ],
-        "place-of-birth": "-",
-        "first-appearance": "Daredevil #252 (March, 1988)",
-        "publisher": "Marvel Comics",
-        "alignment": "bad"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Human",
-        "height": [
-          "6'2",
-          "188 cm"
-        ],
-        "weight": [
-          "225 lb",
-          "101 kg"
-        ],
-        "eye-color": "Brown",
-        "hair-color": "Black"
-      },
-      "work": {
-        "occupation": "Gang leader , criminal , former soldier",
-        "base": "New York City"
-      },
-      "connections": {
-        "group-affiliation": "former leader of the Wildboys",
-        "relatives": "-"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/184.jpg"
       }
     },
     {
@@ -1732,55 +1636,6 @@
       }
     },
     {
-      "id": 39,
-      "name": "Arachne",
-      "powerstats": {
-        "intelligence": "50",
-        "strength": "48",
-        "speed": "50",
-        "durability": "70",
-        "power": "71",
-        "combat": "70"
-      },
-      "biography": {
-        "full-name": "Julia Carpenter",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Spider-Woman",
-          "Madame Web"
-        ],
-        "place-of-birth": "Los Angeles, California",
-        "first-appearance": "Marvel Super Heroes Secret Wars #6",
-        "publisher": "Marvel Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Female",
-        "race": "Human",
-        "height": [
-          "5'9",
-          "175 cm"
-        ],
-        "weight": [
-          "140 lb",
-          "63 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Blond"
-      },
-      "work": {
-        "occupation": "Adventurer, fugitive, former government agent",
-        "base": "Mobile; formerly Denver, Colorado; formerly Avengers Compound, Los Angeles, California"
-      },
-      "connections": {
-        "group-affiliation": "Omega Flight, formerly Commission on Superhuman Activities , Freedom Force , Avengers , Secret Defenders , Force Works , Queen�s Vengeance , West Coast Avengers, Secret Avengers (Civil War)",
-        "relatives": "Rachel Carpenter (daughter), Walter Cornwall (father), Elizabeth Cornwall (mother), Larry Carpenter (ex-husband, deceased)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/882.jpg"
-      }
-    },
-    {
       "id": 40,
       "name": "Archangel",
       "powerstats": {
@@ -2562,54 +2417,6 @@
       },
       "image": {
         "url": "https://www.superherodb.com/pictures2/portraits/10/100/940.jpg"
-      }
-    },
-    {
-      "id": 56,
-      "name": "Aurora",
-      "powerstats": {
-        "intelligence": "63",
-        "strength": "10",
-        "speed": "96",
-        "durability": "60",
-        "power": "74",
-        "combat": "56"
-      },
-      "biography": {
-        "full-name": "Jeanne-Marie Beaubier",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Sister Beaubier"
-        ],
-        "place-of-birth": "Montreal, Quebec, Canada",
-        "first-appearance": "X-Men #121 (1979)",
-        "publisher": "Marvel Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Female",
-        "race": "Mutant",
-        "height": [
-          "5'11",
-          "180 cm"
-        ],
-        "weight": [
-          "140 lb",
-          "63 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Black"
-      },
-      "work": {
-        "occupation": "Adventurer; former terrorist, nun, history/geography teacher",
-        "base": "Laval, Quebec, Canada"
-      },
-      "connections": {
-        "group-affiliation": "Alpha Flight, Alpha Flight (Space Program), Royal Canadian Mounted Police; formerly Weapon X, ally of the Havok's Brotherhood, Headbangers , Children of the Vault, X-Men (interim member)",
-        "relatives": "Jean-Baptiste Beaubier (father, deceased), unidentified mother (deceased), Jean-Paul Beaubier (Northstar, twin brother) Joanna Beaubier (adopted niece, deceased); Lois and Genevieve Martin (first cousins once removed/adopted parents, deceased)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1289.jpg"
       }
     },
     {
@@ -16787,54 +16594,6 @@
       }
     },
     {
-      "id": 343,
-      "name": "Ink",
-      "powerstats": {
-        "intelligence": "38",
-        "strength": "28",
-        "speed": "17",
-        "durability": "40",
-        "power": "73",
-        "combat": "50"
-      },
-      "biography": {
-        "full-name": "Eric Gitter",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "-"
-        ],
-        "place-of-birth": "-",
-        "first-appearance": "Young X-Men #1 (May, 2008)",
-        "publisher": "Marvel Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Mutant",
-        "height": [
-          "5'11",
-          "180 cm"
-        ],
-        "weight": [
-          "180 lb",
-          "81 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "No Hair"
-      },
-      "work": {
-        "occupation": "-",
-        "base": "-"
-      },
-      "connections": {
-        "group-affiliation": "Formerly X-Men, Young X-Men",
-        "relatives": "-"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/10337.jpg"
-      }
-    },
-    {
       "id": 344,
       "name": "Invisible Woman",
       "powerstats": {
@@ -28386,54 +28145,6 @@
       },
       "image": {
         "url": "https://www.superherodb.com/pictures2/portraits/10/100/1117.jpg"
-      }
-    },
-    {
-      "id": 576,
-      "name": "Scarecrow",
-      "powerstats": {
-        "intelligence": "81",
-        "strength": "10",
-        "speed": "12",
-        "durability": "14",
-        "power": "48",
-        "combat": "50"
-      },
-      "biography": {
-        "full-name": "Jonathan Crane",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "-"
-        ],
-        "place-of-birth": "-",
-        "first-appearance": "WORLD'S FINEST COMICS #3 (Fall, 1941)",
-        "publisher": "DC Comics",
-        "alignment": "bad"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Human",
-        "height": [
-          "6'0",
-          "183 cm"
-        ],
-        "weight": [
-          "140 lb",
-          "63 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Brown"
-      },
-      "work": {
-        "occupation": "Special Professional Criminal",
-        "base": "Gotham City"
-      },
-      "connections": {
-        "group-affiliation": "Injustice Gang",
-        "relatives": "-"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/819.jpg"
       }
     },
     {
