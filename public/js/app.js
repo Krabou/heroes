@@ -66,13 +66,13 @@ function displayAllHeroes(list) {
 
 async function postNewHeroe() {
   const name = document.getElementById("name").value;
-  const avatar = document.getElementById("avatar").value;
-  const intelligence = document.getElementById("intelligence").value;
+  
 
 
   try {
     await axios.post(URL, {
       name,
+     
     });
     console.log(name)
     getAllHeroes();
@@ -95,21 +95,21 @@ function getOneHeroe(id) {
 
 
 //Function detail
-function afficherDetail(evt,heroes){
-  const id = evt.target.getAttribute("id") 
-  const modal = document.createElement("div")
-  modal.classList.add("modal") 
-  const body = document.querySelector("body")
-  body.appendChild(modal)
-  const heroe = heroes.find(heroe => heroe.id == id) 
-  console.log(heroe) 
-  modal.innerHTML = `
-  ${heroe.name} 
-  ${heroe.id}
-  ${heroe.biography.publisher}
-  `
+// function afficherDetail(evt,heroes){
+//   const id = evt.target.getAttribute("id") 
+//   const modal = document.createElement("div")
+//   modal.classList.add("modal") 
+//   const body = document.querySelector("body")
+//   body.appendChild(modal)
+//   const heroe = heroes.find(heroe => heroe.id == id) 
+//   console.log(heroe) 
+//   modal.innerHTML = `
+//   ${heroe.name} 
+//   ${heroe.id}
+//   ${heroe.biography.publisher}
+//   `
   
-  }
+//   }
 
 // Function remove
 
