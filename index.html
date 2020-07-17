@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="/public/js/app.js"></script>
+    <link rel="stylesheet" href="/public/css/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Cree un super Heroes</li>
-            </ul>
-        </nav> 
+    <header id="header">
+        <h1>Heroes</h1> <input id="searchbar" type="text" placeholder="search for a hero">
     </header>
-    <figure>
-        <img src="" alt="">
+    <figure class="slider">
+        <img src="/public/img/rBVaI1kgPfOADlESAAgmHBq0HHE395-dhgate.jpg" alt="slide heroes">
     </figure>
+   <nav id="nav">
+        <form>
+           
+            <select id="order">
+                <option value="">--Please choose an option--</option>
+                <option value="asc">ascending</option>
+                <option value="desc">descending</option>
+            </select>
+        </form>
+
+        <form id="formPostHero">
+            <button>Post new hero</button>
+            <div>
+            <input id="name" class="input" name="name" type="text" class="input" placeholder="name">
+            <input id="intelligence" class="input" name="powerstats.intelligence" type="text" class="input" placeholder="intelligence">
+            <button class="btn">ok</button></div>
+        </form>
+</nav>
+
+
     <main>
-        <h1 class="title">AJAX API Intro</h1>
-<form action="">
-    <input type="text">
-    <button>Search</button>
-</form>
-<ul id="listHeroes"></ul>
+
+
+        <ul id="listHeroes"></ul>
     </main>
+    <footer><ul><li>Krachai Karima</li>
+    <li>Maliki Maria</li>
+<li>Oussama</li>
+<li>Kenwele</li></ul></footer>
 </body>
+
 </html>

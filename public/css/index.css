@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    min-height: 85px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-size: 45px;
+    font-weight: 900;
+}
+.header-active>h1{
+    font-size: 35px;
+}
+#searchbar {
+    border-radius: 10px;
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    padding: 15px;
+    width: 320px;
+    margin: 15px;
+}
+.header-active>#searchbar{
+    height: 40px;
+}
+#searchbar::placeholder {
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-active {
+    position: fixed;
+    top: 0;
+}
+
+
+.slider {
+    background: black;
+    border-bottom: 3px solid black;
+    min-width: 100%;
+}
+
+.slider>img {
+    width: 100%;
+}
+
+nav {
+    padding: 35px 15px;
+    background: black;
+    width: 100%;
+    color: blanchedalmond;
+}
+
+
+
+body {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+#listHeroes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#listHeroes>li {
+    display: block;
+    width: 320px;
+    margin: 15px;
+}
+
+.carte {
+    width: 320px;
+}
+
+.carte>img {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 200px;
+    color: blanchedalmond;
+}
+
+footer>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer>ul>li {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 15px;
+    padding-top: 40px;
+}
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+    h1 {
+        padding-left: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: space-around;
+    }
+}
